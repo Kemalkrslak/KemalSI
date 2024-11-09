@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #444;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-family: 'Freckle Face', cursive;
+    font-size: 1.3em;
+}
+
+nav ul li a {
+    color: #ffdf5d;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff3d3d;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    color: #ffdf5d;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Freckle Face', cursive;
+    color: #ff3d3d;
+}
+
+.galerija {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    justify-items: center;
+}
+
+.slika {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 3px solid #ff3d3d;
+    border-radius: 10px;
+    background-color: #ffdf5d;
+}
+
+.slika img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kontakt-forma {
+    text-align: center;
+    padding: 20px;
+}
+
+.kontakt-forma input, .kontakt-forma textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 2px solid #ffdf5d;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffdf5d;
+}
+
+.kontakt-forma button {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #ff3d3d;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.kontakt-forma button:hover {
+    background-color: #ffdf5d;
+}
+
+.uvod, .izdvojeni-radovi, .poziv-na-akciju {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: #ffdf5d;
+    font-family: 'Freckle Face', cursive;
+}
+
+.uvod h2, .izdvojeni-radovi h2, .poziv-na-akciju h2 {
+    color: #ff3d3d;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+
+.radovi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.rad {
+    background-color: #444;
+    border: 2px solid #ff3d3d;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #ffdf5d;
+}
+
+.rad img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.rad p {
+    margin-top: 10px;
+}
+
+.poziv-na-akciju a {
+    color: #ffdf5d;
+    text-decoration: underline;
+}
+
+.biografija, .inspiracija, .filozofija {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: #ffdf5d;
+    font-family: 'Freckle Face', cursive;
+}
+
+.biografija h2, .inspiracija h2, .filozofija h2 {
+    color: #ff3d3d;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.biografija p, .inspiracija p, .filozofija p {
+    font-size: 1em;
+    color: #ffdf5d;
+    line-height: 1.6;
+}
+
+header p {
+    font-family: 'Freckle Face', cursive;
+}
+
+p {
+    font-size: 1.5em;
+}
